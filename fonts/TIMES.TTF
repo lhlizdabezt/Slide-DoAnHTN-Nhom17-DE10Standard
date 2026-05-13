@@ -1,0 +1,27 @@
+#text(14pt, weight: "bold")[
+  Phụ lục E. Đối chiếu hiện vật phần mềm với các lớp chức năng]
+#v(0.18cm)
+
+Nếu nhìn theo góc độ hồ sơ kỹ thuật, các hiện vật phần mềm của nhóm không nên được xem là những mảnh rời rạc, mà là các đầu cuối khác nhau cùng quy về một lõi xử lý trên board. Bảng dưới đây tóm tắt mối quan hệ đó để làm rõ vì sao báo cáo cần đồng bộ đồng thời phần *PC*, phần *mobile* và phần *board-side control*.
+
+#figure(
+  [
+    #set par(justify: false)
+    #table(
+      columns: (3.1cm, 2.2cm, 1fr),
+      stroke: 0.5pt,
+      inset: 6pt,
+      table.header([*Hiện vật / thành phần*], [*Lớp chức năng*], [*Ý nghĩa trong kiến trúc chung*]),
+      [Giao diện Python qua SSH], [Ứng dụng PC], [Đầu cuối điều khiển chính; cho phép nhập payload, theo dõi log và giảm thao tác terminal lặp lại],
+      [Giao diện desktop TCP], [Ứng dụng PC], [Nhánh đối chiếu trực tiếp ở mức socket; hữu ích khi cần kiểm tra tách biệt với lớp SSH],
+      [Ứng dụng Android], [Ứng dụng mobile], [Mở rộng khả năng trình diễn sang đầu cuối di động nhưng vẫn dùng chung lõi hiển thị],
+      [Script `hex_text.sh`], [Điều khiển trên board], [Lõi chuẩn hóa payload và ghi thanh ghi; là điểm hội tụ quan trọng nhất giữa các đầu cuối],
+      [TCP server tối giản], [Điều khiển trên board], [Lớp nhận lệnh qua socket, dùng lại cùng lõi hiển thị để bảo đảm tính nhất quán],
+      [Tài liệu Linux/SoC học phần], [Cơ sở tham chiếu], [Làm nền cho thao tác bring-up, cấu hình mạng và cách hiểu mối quan hệ giữa HPS với FPGA],
+    )
+  ],
+  kind: table,
+  caption: [Đối chiếu các hiện vật phần mềm với các lớp chức năng trong hệ thống SoC-Ethernet.]
+)
+
+Qua cách đối chiếu này có thể thấy giá trị của báo cáo không nằm ở việc sở hữu nhiều giao diện khác nhau, mà ở chỗ các giao diện đó đã được quy về một kiến trúc thống nhất và có thể giải thích được bằng ngôn ngữ kỹ thuật rõ ràng. Đây cũng là điểm giúp bản báo cáo nhất quán hơn với phần trình diễn thực tế của nhóm.

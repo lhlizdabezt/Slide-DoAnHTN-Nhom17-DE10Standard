@@ -1,0 +1,38 @@
+MIT License
+
+Copyright (c) 2026 Lương Hải Long & Group 17 — 22DTV_CLC, HCMUS FETEL
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+NOTE — Scope of this MIT License:
+The MIT License applies ONLY to the Typst source code: the Stargazer theme
+(stargazer.typ), the layout helpers, panels, badges, footer functions, and the
+build configuration in main.typ.
+
+It does NOT cover:
+  * The technical content of the slides (the bullet text, conclusions,
+    architecture descriptions, troubleshooting notes).
+  * The photographic material in `images/` and `assets/` (DE10-Standard
+    photos, laptop/phone GUI screenshots, USB-UART cable, microSD card,
+    HCMUS / VNU-HCM / FETEL logos).
+
+Trademarks and logos of HCMUS, VNU-HCM, FETEL and Intel/Altera remain the
+property of their respective owners. Project content remains the intellectual
+property of the listed authors and may not be re-submitted as the academic
+work of another person, nor used commercially without explicit permission.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

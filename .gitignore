@@ -1,0 +1,11 @@
+# Typst build outputs (PDF is shipped via Releases, not committed)
+*.pdf
+.typst-cache/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
