@@ -1,0 +1,26 @@
+
+      <svg
+        width="854"
+        height="200"
+        viewBox="0 0 854 200"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <style>
+      .text {   font-size: 34px;   font-weight: 700;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } .desc {   font-size: 14px;   font-weight: 500;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } 
+      .text, .desc {   animation: fadeIn 1.2s ease-in-out forwards;  } @keyframes fadeIn {   from {     opacity: 0;   }   to {     opacity: 1;   }  } 
+    </style>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 854 200"
+        >
+          <defs>
+              <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#083b4c"/><stop offset="50%" stop-color="#246d7c"/><stop offset="100%" stop-color="#7da8b3"/>
+              </linearGradient>
+            </defs>
+          <path fill="url(#linear)"  fill-opacity="1" d="M 61 0 L 754 0 A 50 50 0 1 1 754 200 L 100 200 A 50 50 0 1 1 100 0 "></path>
+        </svg>
+         <text text-anchor="middle" alignment-baseline="middle" x="50%" y="42%" class="text" style="fill:#ffffff;" stroke="#none" stroke-width="1" >SoC Ethernet TCP DE10-Standard</text>
+        <text text-anchor="middle" alignment-baseline="middle" x="50%" y="68%" class="desc" style="fill:#ffffff;">Embedded Systems Capstone - Group 17 - 22DTV_CLC - HCMUS FETEL</text>
+      </svg>
+    

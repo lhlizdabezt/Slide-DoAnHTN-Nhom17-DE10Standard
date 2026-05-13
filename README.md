@@ -1,6 +1,8 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=cylinder&height=180&color=0:083b4c,50:246d7c,100:7da8b3&text=SoC%20%E2%80%A2%20Ethernet%20TCP%20%E2%80%A2%20DE10-Standard&fontColor=ffffff&fontSize=30&fontAlignY=42&desc=%C4%90%E1%BB%93%20%C3%A1n%20H%E1%BB%87%20Th%E1%BB%91ng%20Nh%C3%BAng%20%E2%80%A2%20Nh%C3%B3m%2017%20%E2%80%A2%2022DTV_CLC%20%E2%80%A2%20HCMUS%20FETEL&descAlignY=68&descSize=14" alt="Slide banner" />
+  <img src="docs/banner.svg" alt="SoC Ethernet TCP on DE10-Standard — Embedded Systems Capstone Group 17 — 22DTV_CLC HCMUS FETEL" width="100%" />
 </p>
+
+<h2 align="center">🖼️ Slide Đồ án Hệ Thống Nhúng — Nhóm 17 — 22DTV_CLC 🖼️</h2>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Typst-Stargazer%20Theme-239DAD?style=for-the-badge&logo=typst&logoColor=white" alt="Typst" />
