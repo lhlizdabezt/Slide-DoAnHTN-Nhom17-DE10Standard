@@ -81,15 +81,15 @@ Sau khi build, file `Slide-DoAnHTN-Nhom17-DE10Standard.pdf` (~21 MB, 10 slides 1
 | # | Slide                                       | Nội dung kỹ thuật                                                    |
 | - | ------------------------------------------- | -------------------------------------------------------------------- |
 | 1 | **Title**                                   | Tên đồ án, nhóm 17, GVHD, logo VNU-HCM/HCMUS/FETEL                   |
-| 2 | **Bài toán & yêu cầu**                      | Tại sao cần TCP→FPGA, các ràng buộc realtime                         |
+| 2 | **Bài toán &amp; yêu cầu**                  | Tại sao cần TCP→FPGA, các ràng buộc realtime                         |
 | 3 | **Tổng quan kiến trúc**                     | PC/Android ↔ TCP/Ethernet ↔ HPS Linux ↔ Avalon-MM ↔ FPGA ↔ LED       |
 | 4 | **DE10-Standard Cyclone V SoC**             | Photo board, MSEL, microSD boot, USB-UART debug                      |
 | 5 | **Phía PC/Android**                         | GUI desktop Python, app Android nhập IP/port, gửi packet             |
 | 6 | **Phía HPS/Linux**                          | Boot Linux từ microSD, socket server C, ánh xạ register Avalon-MM    |
 | 7 | **Phía FPGA**                               | PIO IP, decoder 7-segment, timing, đầu ra GPIO LED                   |
-| 8 | **Demo & kết quả đo**                       | Photo board hex main, laptop board close, phone board main           |
+| 8 | **Demo &amp; kết quả đo**                   | Photo board hex main, laptop board close, phone board main           |
 | 9 | **Khó khăn — Bài học**                      | Bottleneck debug, boot loop, MSEL sai, cable USB-UART, IP conflict   |
-| 10| **Kết luận & hướng phát triển**             | Mở rộng giao thức (MQTT, websocket), thay LED bằng LCD/Touchscreen   |
+| 10| **Kết luận &amp; hướng phát triển**         | Mở rộng giao thức (MQTT, websocket), thay LED bằng LCD/Touchscreen   |
 
 ## Liên quan / See also
 
@@ -100,7 +100,7 @@ Sau khi build, file `Slide-DoAnHTN-Nhom17-DE10Standard.pdf` (~21 MB, 10 slides 1
 ## License
 
 - Slide theme `stargazer.typ` + macros + layout: **MIT License** — xem [LICENSE](LICENSE).
-- Nội dung kỹ thuật, kết luận và ảnh trong `images/` / `assets/`: © 2026 Lương Hải Long & Nhóm 17 — 22DTV_CLC HCMUS. Không tái sử dụng cho mục đích thương mại hoặc nộp lại như đồ án của bạn.
+- Nội dung kỹ thuật, kết luận và ảnh trong `images/` / `assets/`: © 2026 Lương Hải Long &amp; Nhóm 17 — 22DTV_CLC HCMUS. Không tái sử dụng cho mục đích thương mại hoặc nộp lại như đồ án của bạn.
 
 <p align="center">
   <sub>Stargazer Typst theme · 16:9 widescreen · Made for HCMUS FETEL embedded-systems defense</sub>
