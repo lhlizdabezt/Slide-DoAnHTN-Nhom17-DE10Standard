@@ -1,26 +1,61 @@
-
-      <svg
-        width="854"
-        height="200"
-        viewBox="0 0 854 200"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <style>
-      .text {   font-size: 34px;   font-weight: 700;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } .desc {   font-size: 14px;   font-weight: 500;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } 
-      .text, .desc {   animation: fadeIn 1.2s ease-in-out forwards;  } @keyframes fadeIn {   from {     opacity: 0;   }   to {     opacity: 1;   }  } 
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Slide DoAn HTN Nhom 17</title>
+  <desc id="desc">SoC Ethernet TCP on DE10-Standard with HPS Linux and FPGA HEX display</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#062f3f"/>
+      <stop offset="48%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#d95319"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.08"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-30%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#001923" flood-opacity="0.25"/>
+    </filter>
+    <style>
+      .title { font: 800 48px -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; fill: #ffffff; letter-spacing: 0; }
+      .sub { font: 600 22px -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; fill: #e0f2f1; letter-spacing: 0; }
+      .chip { font: 700 17px -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; fill: #ffffff; letter-spacing: 0; }
+      .fine { font: 600 15px "SFMono-Regular", Consolas, monospace; fill: #f8fafc; letter-spacing: 0; }
+      .flow { stroke: #ffffff; stroke-width: 5; stroke-linecap: round; stroke-dasharray: 14 18; animation: dash 1.8s linear infinite; opacity: 0.9; }
+      .pulse { animation: pulse 1.5s ease-in-out infinite; transform-origin: center; }
+      .float { animation: float 4s ease-in-out infinite; }
+      @keyframes dash { to { stroke-dashoffset: -64; } }
+      @keyframes pulse { 0%, 100% { opacity: 0.45; r: 9; } 50% { opacity: 1; r: 16; } }
+      @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
     </style>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 854 200"
-        >
-          <defs>
-              <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
-                <stop offset="0%" stop-color="#083b4c"/><stop offset="50%" stop-color="#246d7c"/><stop offset="100%" stop-color="#7da8b3"/>
-              </linearGradient>
-            </defs>
-          <path fill="url(#linear)"  fill-opacity="1" d="M 61 0 L 754 0 A 50 50 0 1 1 754 200 L 100 200 A 50 50 0 1 1 100 0 "></path>
-        </svg>
-         <text text-anchor="middle" alignment-baseline="middle" x="50%" y="42%" class="text" style="fill:#ffffff;" stroke="#none" stroke-width="1" >SoC Ethernet TCP DE10-Standard</text>
-        <text text-anchor="middle" alignment-baseline="middle" x="50%" y="68%" class="desc" style="fill:#ffffff;">Embedded Systems Capstone - Group 17 - 22DTV_CLC - HCMUS FETEL</text>
-      </svg>
-    
+  </defs>
+
+  <rect width="1200" height="320" rx="34" fill="url(#bg)"/>
+  <path d="M-40 78 C160 10 270 165 430 87 C590 10 704 50 830 124 C964 203 1088 181 1240 96" fill="none" stroke="#b7e5ea" stroke-opacity="0.25" stroke-width="3"/>
+  <path d="M-80 244 C150 150 322 276 522 174 C692 86 826 123 1002 222 C1100 276 1168 242 1260 188" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="3"/>
+
+  <g filter="url(#softShadow)" class="float">
+    <rect x="72" y="62" width="1056" height="196" rx="30" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.28"/>
+  </g>
+
+  <text x="600" y="122" text-anchor="middle" class="title">Slide DoAn HTN Nhom 17</text>
+  <text x="600" y="160" text-anchor="middle" class="sub">SoC Ethernet TCP on DE10-Standard Cyclone V</text>
+
+  <g transform="translate(192 196)">
+    <rect x="0" y="0" width="180" height="36" rx="18" fill="#083b4c" fill-opacity="0.62" stroke="#d8f3f5" stroke-opacity="0.45"/>
+    <text x="90" y="24" text-anchor="middle" class="chip">PC / Android</text>
+  </g>
+  <g transform="translate(510 196)">
+    <rect x="0" y="0" width="180" height="36" rx="18" fill="#083b4c" fill-opacity="0.62" stroke="#d8f3f5" stroke-opacity="0.45"/>
+    <text x="90" y="24" text-anchor="middle" class="chip">HPS Linux</text>
+  </g>
+  <g transform="translate(828 196)">
+    <rect x="0" y="0" width="180" height="36" rx="18" fill="#083b4c" fill-opacity="0.62" stroke="#d8f3f5" stroke-opacity="0.45"/>
+    <text x="90" y="24" text-anchor="middle" class="chip">FPGA HEX</text>
+  </g>
+
+  <path class="flow" d="M385 214 H492"/>
+  <path class="flow" d="M703 214 H810"/>
+  <circle class="pulse" cx="440" cy="214" r="10" fill="#ffd35a"/>
+  <circle class="pulse" cx="760" cy="214" r="10" fill="#ffd35a" style="animation-delay: .45s"/>
+
+  <text x="600" y="278" text-anchor="middle" class="fine">Typst / Touying / Stargazer | 16:9 widescreen | release-ready PDF</text>
+</svg>

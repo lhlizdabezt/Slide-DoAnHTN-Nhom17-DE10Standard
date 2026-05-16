@@ -1,109 +1,135 @@
 <p align="center">
-  <img src="docs/banner.svg" alt="SoC Ethernet TCP on DE10-Standard — Embedded Systems Capstone Group 17 — 22DTV_CLC HCMUS FETEL" width="100%" />
+  <img src="docs/banner.svg" alt="Banner slide SoC Ethernet TCP trên DE10-Standard" width="100%" />
 </p>
 
-<h2 align="center">🖼️ Slide Đồ án Hệ Thống Nhúng — Nhóm 17 — 22DTV_CLC 🖼️</h2>
+<h1 align="center">🖼️ Slide Đồ án Hệ thống nhúng · Nhóm 17 · DE10-Standard 🖼️</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Typst-Stargazer%20Theme-239DAD?style=for-the-badge&logo=typst&logoColor=white" alt="Typst" />
-  <img src="https://img.shields.io/badge/Slide-16%3A9%20Widescreen-2563eb?style=for-the-badge" alt="16:9" />
-  <img src="https://img.shields.io/badge/Board-DE10--Standard%20Cyclone%20V%20SoC-0f766e?style=for-the-badge" alt="DE10" />
-  <img src="https://img.shields.io/badge/Stack-FPGA%20%2B%20HPS%2FLinux%20%2B%20TCP%2FEthernet-083b4c?style=for-the-badge" alt="Stack" />
-  <img src="https://img.shields.io/badge/Group-Nh%C3%B3m%2017-D95319?style=for-the-badge" alt="Group 17" />
+  <a href="https://github.com/lhlizdabezt/Slide-DoAnHTN-Nhom17-DE10Standard/releases/latest"><img src="https://img.shields.io/github/v/release/lhlizdabezt/Slide-DoAnHTN-Nhom17-DE10Standard?style=for-the-badge&label=Release&color=0f766e" alt="Release mới nhất của slide" /></a>
+  <img src="https://img.shields.io/badge/Typst-Touying%20%2B%20Stargazer-239DAD?style=for-the-badge&logo=typst&logoColor=white" alt="Typst Touying Stargazer" />
+  <img src="https://img.shields.io/badge/Board-DE10--Standard%20Cyclone%20V-2563eb?style=for-the-badge" alt="DE10-Standard Cyclone V" />
+  <img src="https://img.shields.io/badge/Stack-HPS%2FLinux%20%2B%20TCP%2FEthernet-D95319?style=for-the-badge" alt="HPS Linux TCP Ethernet" />
+  <img src="https://img.shields.io/badge/Slide-16%3A9%20Widescreen-334155?style=for-the-badge" alt="Slide 16:9 widescreen" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3200&pause=900&color=246D7C&center=true&vCenter=true&multiline=true&width=820&height=80&lines=From+TCP+packet+%E2%86%92+HPS%2FLinux+%E2%86%92+FPGA+fabric+%E2%86%92+LED+7+segment;Designed+with+Stargazer-style+Typst+slides+%E2%80%94+13.33in+%C3%97+7.5in" alt="Typing animation" />
+  <img src="assets/slide-htn-motion.gif" alt="GIF motion mô tả luồng TCP từ client qua HPS Linux đến FPGA HEX" width="100%" />
 </p>
 
 ---
 
-## Tổng quan / About
+## 🎯 Tóm tắt
 
-Deck báo cáo cho **Đồ án Hệ thống nhúng — Nhóm 17 (22DTV_CLC)** chủ đề:
+Repo này lưu bộ slide bảo vệ cho **Đồ án Hệ thống nhúng - Nhóm 17 (22DTV_CLC)**, chủ đề **SoC FPGA nhận lệnh TCP/Ethernet từ PC hoặc Android, xử lý trên HPS/Linux và hiển thị lên LED 7 đoạn của DE10-Standard Cyclone V**.
 
-> **"SoC FPGA nhận lệnh TCP/Ethernet từ PC/Android, xử lý trên HPS/Linux và hiển thị lên LED 7 đoạn — DE10-Standard Cyclone V"**
+Slide được viết bằng **Typst/Touying** với theme **Stargazer** tự chỉnh, dùng khung 16:9, ảnh demo thật, bảng đối chiếu yêu cầu học phần và luồng minh chứng end-to-end. Mục tiêu của repo là để người xem không chỉ thấy file trình chiếu, mà còn thấy rõ bối cảnh kỹ thuật, cách build lại, bằng chứng demo và liên kết với repo source của đồ án.
 
-Slide được **soạn bằng Typst** với theme **Stargazer** tự thiết kế (`stargazer.typ`):
+## 🔗 Liên kết nhanh
 
-- Trang `13.333in × 7.5in` widescreen 16:9 (giống PowerPoint slide chuẩn).
-- Palette: `dark #083b4c` — `mid #246d7c` — `line #7da8b3` — soft pastels.
-- Component library: `panel`, `phase`, `step`, `title-band`, `badge`, `footer` — toàn bộ là Typst function, render lại sạch khi sửa nội dung.
-- Footer cố định: *Nhóm 17 — SoC - Ethernet TCP trên DE10-Standard — 04/2026 — N/total*.
-- Image grid với photo board, laptop GUI, phone GUI, USB-UART, microSD, DE10-Standard.
+| Hạng mục | Liên kết |
+| --- | --- |
+| PDF release mới nhất | [Tải tại GitHub Releases](https://github.com/lhlizdabezt/Slide-DoAnHTN-Nhom17-DE10Standard/releases/latest) |
+| Source code đồ án | [DoAnHeThongNhung](https://github.com/lhlizdabezt/DoAnHeThongNhung) |
+| Hồ sơ GitHub | [lhlizdabezt](https://github.com/lhlizdabezt) |
+| Profile README | [lhlizdabezt/lhlizdabezt](https://github.com/lhlizdabezt/lhlizdabezt) |
 
-## Demo / Preview
+## 🧩 Bộ slide gồm gì
 
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <img src="https://img.shields.io/badge/TCP-Sender-2563eb?style=flat-square" alt="TCP sender" /><br />
-      <b>PC / Android</b><br />
-      <sub>Python GUI · TCP client · gửi lệnh điều khiển 7-segment</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="https://img.shields.io/badge/HPS%2FLinux-Bridge-0f766e?style=flat-square" alt="HPS" /><br />
-      <b>HPS / Linux</b><br />
-      <sub>ARM Cortex-A9 · Socket server · mmap → Avalon-MM master</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="https://img.shields.io/badge/FPGA-Display-D95319?style=flat-square" alt="FPGA" /><br />
-      <b>FPGA Fabric</b><br />
-      <sub>Cyclone V · PIO IP · 7-segment decoder · LED out</sub>
-    </td>
-  </tr>
-</table>
+| Nhóm nội dung | Bằng chứng trong slide | Giá trị khi đánh giá |
+| --- | --- | --- |
+| Bài toán SoC/Ethernet | Mục tiêu TCP-only, port 5000, client desktop và Android | Cho thấy phạm vi bảo vệ rõ, không ôm đồm nhiều nhánh chưa kiểm chứng |
+| Nền tảng phần cứng | DE10-Standard Cyclone V, HPS/Linux, MSEL, microSD, USB-UART | Chứng minh nhóm có xử lý bring-up board thật, không chỉ làm giao diện |
+| Đường dữ liệu | Client gửi payload qua TCP, HPS nhận bằng socket server, ghi ra ngoại vi FPGA | Thể hiện luồng tích hợp phần mềm - Linux - FPGA theo từng tầng |
+| Kiểm thử tối thiểu | Contract payload 6 ký tự, ảnh laptop GUI, ảnh board HEX, ảnh Android | Người xem có dấu hiệu trực quan để đối chiếu với kết quả chạy thật |
+| Tài liệu trình bày | Theme Typst/Stargazer, bố cục 10 slide, preview và release PDF | Dễ build lại, dễ đọc, phù hợp để nộp và đưa vào portfolio |
 
-## Cây thư mục / Layout
-
-```
-.
-├── main.typ                # Entry — set page (13.33×7.5in), set text, include all slides
-├── stargazer.typ           # Theme: dark/mid palette + panel/phase/step/title-band/footer
-├── assets/                 # Logo VNU-HCM, US (HCMUS), FETEL
-└── images/                 # Board photos, laptop board close, phone GUI, USB-UART, microSD
-```
-
-## Build PDF
-
-```bash
-# Compile slide deck
-typst compile main.typ Slide-DoAnHTN-Nhom17.pdf
-
-# Hoặc xem live khi đang chỉnh
-typst watch main.typ
-```
-
-> Font Times New Roman / DejaVu Sans Mono là *optional fallback* — Typst sẽ rơi về font có sẵn của OS nếu thiếu. Slide vẫn render đẹp.
-
-Sau khi build, file `Slide-DoAnHTN-Nhom17-DE10Standard.pdf` (~21 MB, 10 slides 16:9) sẽ có sẵn để trình bày trên PowerPoint, OBS, Zoom hay in.
-
-## Slide Map
-
-| # | Slide                                       | Nội dung kỹ thuật                                                    |
-| - | ------------------------------------------- | -------------------------------------------------------------------- |
-| 1 | **Title**                                   | Tên đồ án, nhóm 17, GVHD, logo VNU-HCM/HCMUS/FETEL                   |
-| 2 | **Bài toán &amp; yêu cầu**                  | Tại sao cần TCP→FPGA, các ràng buộc realtime                         |
-| 3 | **Tổng quan kiến trúc**                     | PC/Android ↔ TCP/Ethernet ↔ HPS Linux ↔ Avalon-MM ↔ FPGA ↔ LED       |
-| 4 | **DE10-Standard Cyclone V SoC**             | Photo board, MSEL, microSD boot, USB-UART debug                      |
-| 5 | **Phía PC/Android**                         | GUI desktop Python, app Android nhập IP/port, gửi packet             |
-| 6 | **Phía HPS/Linux**                          | Boot Linux từ microSD, socket server C, ánh xạ register Avalon-MM    |
-| 7 | **Phía FPGA**                               | PIO IP, decoder 7-segment, timing, đầu ra GPIO LED                   |
-| 8 | **Demo &amp; kết quả đo**                   | Photo board hex main, laptop board close, phone board main           |
-| 9 | **Khó khăn — Bài học**                      | Bottleneck debug, boot loop, MSEL sai, cable USB-UART, IP conflict   |
-| 10| **Kết luận &amp; hướng phát triển**         | Mở rộng giao thức (MQTT, websocket), thay LED bằng LCD/Touchscreen   |
-
-## Liên quan / See also
-
-- [`DoAnHeThongNhung`](https://github.com/lhlizdabezt/DoAnHeThongNhung) — **Source code đồ án** (Quartus, Python GUI, C apps, report PDF)
-- [`embedded-systems-fpga-review-labs`](https://github.com/lhlizdabezt/embedded-systems-fpga-review-labs) — Lab workspace HTN (Verilog IP, Avalon-MM, Nios II, PIO/DMA)
-- [`BCTT-ThucTap-BTPHoldings`](https://github.com/lhlizdabezt/BCTT-ThucTap-BTPHoldings) — Báo cáo Thực tập Thực tế 2026
-
-## License
-
-- Slide theme `stargazer.typ` + macros + layout: **MIT License** — xem [LICENSE](LICENSE).
-- Nội dung kỹ thuật, kết luận và ảnh trong `images/` / `assets/`: © 2026 Lương Hải Long &amp; Nhóm 17 — 22DTV_CLC HCMUS. Không tái sử dụng cho mục đích thương mại hoặc nộp lại như đồ án của bạn.
+## 🖼️ Preview
 
 <p align="center">
-  <sub>Stargazer Typst theme · 16:9 widescreen · Made for HCMUS FETEL embedded-systems defense</sub>
+  <img src="assets/slide-preview-01.png" alt="Ảnh preview slide mở đầu của đồ án SoC Ethernet TCP trên DE10-Standard" width="100%" />
+</p>
+
+## 🗺️ Slide map
+
+| # | Slide | Nội dung chính |
+| --- | --- | --- |
+| 1 | Mở đầu | Tên đồ án, nhóm, giảng viên, logo VNU-HCM/HCMUS/FETEL và thông điệp cốt lõi |
+| 2 | Phạm vi bảo vệ và tuyến demo | Thu hẹp về nhánh TCP đã chạy thật, desktop + Android, board DE10-Standard |
+| 3 | Kiến trúc end-to-end | PC/Android ↔ TCP/Ethernet ↔ HPS/Linux ↔ FPGA/PIO ↔ LED 7 đoạn |
+| 4 | Nền tảng phần cứng và bring-up | MSEL, microSD, USB-UART, boot Linux, IP mạng và điều kiện vận hành |
+| 5 | Lõi TCP trên board | Socket server, payload, `hex_text.sh`, ghi dữ liệu ra cụm HEX |
+| 6 | Contract dữ liệu và kiểm thử | Quy ước payload 6 ký tự, kiểm thử theo tầng và ranh giới dữ liệu |
+| 7 | Hai đầu cuối điều khiển | Desktop GUI và Android client cùng gửi về một endpoint TCP |
+| 8 | Minh chứng chạy thật | Ảnh laptop, board và điện thoại trong bối cảnh lab thật |
+| 9 | Đối chiếu yêu cầu học phần | Mapping yêu cầu học phần với hiện vật kỹ thuật đã làm được |
+| 10 | Kết luận | Tóm tắt chuỗi SoC - Ethernet và hướng mở rộng hợp lý |
+
+## 🛠️ Build lại PDF
+
+Yêu cầu chính:
+
+| Công cụ | Vai trò |
+| --- | --- |
+| Typst `0.14.x` | Biên dịch `main.typ` thành PDF hoặc PNG |
+| Touying package | Nền trình chiếu Typst được import trong `stargazer.typ` |
+| Font hệ thống | Times New Roman/Courier New trên Windows; Typst có fallback nếu thiếu font phụ |
+
+Lệnh build:
+
+```bash
+typst compile main.typ Slide-DoAnHTN-Nhom17-DE10Standard.pdf
+```
+
+Xuất ảnh preview slide đầu:
+
+```bash
+typst compile main.typ assets/slide-preview-01.png --pages 1 --ppi 96
+```
+
+Khi kiểm tra trên máy Windows hiện tại, deck build thành công. Typst chỉ báo cảnh báo fallback cho một vài font phụ như `Liberation Serif`, `DejaVu Serif` và `Liberation Mono`; PDF vẫn được xuất bình thường vì Windows có Times New Roman/Courier New.
+
+## 📁 Cấu trúc repo
+
+```text
+.
+├── main.typ                 # Entry point của deck 10 slide
+├── stargazer.typ            # Theme Typst/Touying: panel, badge, phase, footer, layout 16:9
+├── assets/                  # Ảnh demo board/GUI/Android, preview PNG và GIF motion
+├── images/                  # Logo VNU-HCM, HCMUS và FETEL
+├── docs/banner.svg          # Banner SVG, text không dấu/English để tránh lỗi font dấu
+├── RELEASE_NOTES.md         # Ghi chú release theo phiên bản
+└── LICENSE                  # MIT cho theme/macro; ảnh và nội dung kỹ thuật có phạm vi riêng
+```
+
+## 👥 Thông tin học phần
+
+| Mục | Nội dung |
+| --- | --- |
+| Học phần | Thực hành Hệ thống nhúng |
+| Lớp | 22DTV_CLC |
+| Nhóm | Nhóm 17 |
+| Thành viên | Văn Đình Nam, Lương Hải Long, Trần Sĩ Nam, Lê Tấn Phi Pha, Vũ Châu Thắng Lợi |
+| Trường | Trường Đại học Khoa học Tự nhiên, ĐHQG-HCM |
+| Khoa | Khoa Điện tử - Viễn thông |
+
+## ✅ Phạm vi trung thực
+
+Repo này tập trung vào **slide trình bày** và các asset trực quan của buổi bảo vệ. Source code, báo cáo đầy đủ và các file Quartus/Python/C liên quan nằm ở repo [DoAnHeThongNhung](https://github.com/lhlizdabezt/DoAnHeThongNhung). README không cố biến slide thành một sản phẩm thương mại; nội dung được trình bày theo hướng portfolio kỹ thuật: rõ bài toán, rõ công nghệ, rõ bằng chứng, rõ cách build.
+
+## 📌 Repo liên quan
+
+| Repo | Vai trò |
+| --- | --- |
+| [DoAnHeThongNhung](https://github.com/lhlizdabezt/DoAnHeThongNhung) | Repo source chính của đồ án SoC/Ethernet trên DE10-Standard |
+| [embedded-systems-fpga-review-labs](https://github.com/lhlizdabezt/embedded-systems-fpga-review-labs) | Lab FPGA/SoPC, Verilog, Avalon-MM, Nios II và PIO/DMA |
+| [HCMUS-DTVT-BaoCao-Templates](https://github.com/lhlizdabezt/HCMUS-DTVT-BaoCao-Templates) | Bộ template báo cáo học thuật cho Điện tử Viễn thông HCMUS |
+| [lhlizdabezt](https://github.com/lhlizdabezt) | Portfolio GitHub của Lương Hải Long |
+
+## 📄 License
+
+- Theme `stargazer.typ`, macro và layout slide: **MIT License**, xem [LICENSE](LICENSE).
+- Nội dung kỹ thuật, ảnh demo trong `assets/` và logo trong `images/`: thuộc phạm vi học phần/portfolio của Lương Hải Long và Nhóm 17. Không dùng lại để nộp thay đồ án, báo cáo hoặc sản phẩm học thuật khác.
+
+<p align="center">
+  <sub>Typst · Touying · Stargazer · DE10-Standard · HPS/Linux · TCP/Ethernet · FPGA HEX</sub>
 </p>
