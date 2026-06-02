@@ -11,3 +11,5 @@
 *.gif binary
 *.pdf binary
 *.ttf binary
+*.pptx binary
+*.docx binary

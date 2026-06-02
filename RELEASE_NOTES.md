@@ -1,17 +1,18 @@
-# English Portfolio Refresh
-
-## Main updates
-
-- Rewrote the public README in English for HR and engineering review.
-- Standardized the repository summary, reviewer map, evidence highlights, scope boundaries and release/tag links.
-- Preserved an evidence-first tone: clear technical nouns, bounded claims and no production ownership beyond the repository material.
-
-## Repository evidence
-
-- 16:9 Typst/Touying deck for the Cyclone V SoC Ethernet flow.
-- Preview images, PDF release and motion GIF evidence.
-- Explains PC/Android TCP clients, HPS/Linux and HPS-to-FPGA bridge behaviour.
+# English Visual Portfolio Refresh - 2026-06-02
 
 ## Scope
 
-Presentation artifact for a course project. It complements the source repository rather than replacing the technical report.
+This refresh keeps `Slide-DoAnHTN-Nhom17-DE10Standard` aligned with an English-facing engineering portfolio for HR and technical review.
+
+## Changes
+
+- Added an ASCII-safe animated SVG visual under `assets/portfolio-motion.svg`.
+- Embedded the visual in `README.md` for immediate GitHub rendering.
+- Standardized Markdown and binary asset handling through `.gitattributes`.
+- Kept the repository description evidence-first and scoped to: Presentation deck and visual proof artifact.
+
+## Review Context
+
+Primary stack: Typst, Touying, DE10-Standard, Cyclone V, TCP/IP, HPS/Linux.
+
+The repository remains bounded to its real artifacts and does not claim production ownership beyond what the source tree, reports, code or release assets can support.

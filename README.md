@@ -5,6 +5,10 @@
   <a href="https://github.com/lhlizdabezt/Slide-DoAnHTN-Nhom17-DE10Standard/tags"><img src="https://img.shields.io/github/v/tag/lhlizdabezt/Slide-DoAnHTN-Nhom17-DE10Standard?style=for-the-badge&logo=git&label=Tag" alt="Latest tag for Slide-DoAnHTN-Nhom17-DE10Standard" /></a>
   <img src="https://img.shields.io/badge/Portfolio-English%20review%20ready-0f766e?style=for-the-badge" alt="English portfolio ready" />
 </p>
+<p align="center">
+  <img src="assets/portfolio-motion.svg" alt="Animated engineering portfolio visual for Slide-DoAnHTN-Nhom17-DE10Standard" width="100%" />
+</p>
+
 
 ## Overview
 
