@@ -1,68 +1,114 @@
-# DE10-Standard SoC Ethernet Defense Slide Deck
+# DE10-Standard SoC Ethernet Presentation Deck
 
-<p align="center">
-  <a href="https://github.com/lhlizdabezt/Slide-DoAnHTN-Nhom17-DE10Standard/releases/latest"><img src="https://img.shields.io/github/v/release/lhlizdabezt/Slide-DoAnHTN-Nhom17-DE10Standard?style=for-the-badge&logo=github&label=Release" alt="Latest release for Slide-DoAnHTN-Nhom17-DE10Standard" /></a>
-  <a href="https://github.com/lhlizdabezt/Slide-DoAnHTN-Nhom17-DE10Standard/tags"><img src="https://img.shields.io/github/v/tag/lhlizdabezt/Slide-DoAnHTN-Nhom17-DE10Standard?style=for-the-badge&logo=git&label=Tag" alt="Latest tag for Slide-DoAnHTN-Nhom17-DE10Standard" /></a>
-  <img src="https://img.shields.io/badge/Portfolio-English%20review%20ready-0f766e?style=for-the-badge" alt="English portfolio ready" />
-</p>
-<p align="center">
-  <img src="assets/portfolio-motion.svg" alt="Animated engineering portfolio visual for Slide-DoAnHTN-Nhom17-DE10Standard" width="100%" />
-</p>
+![Profile](https://img.shields.io/badge/Profile-lhlizdabezt-0B3D91?style=for-the-badge)
+![Writing](https://img.shields.io/badge/Writing-IEEE%20and%20Harvard%20style-1F6F5B?style=for-the-badge)
+![Language](https://img.shields.io/badge/Language-English%20US-7A1E3A?style=for-the-badge)
+![Review](https://img.shields.io/badge/Status-Reviewer%20Ready-333333?style=for-the-badge)
 
+![DE10-Standard SoC Ethernet Presentation Deck reviewer card](assets/reviewer-card.svg)
 
-## Overview
+## Executive Summary
 
-This repository contains the Typst/Touying slide deck for the DE10-Standard SoC Ethernet project, packaged as a visual companion to the embedded-systems repository.
+This repository presents a technical slide deck for a DE10-Standard SoC Ethernet project. The public wrapper emphasizes presentation discipline, FPGA/SoC communication context, Typst/Touying authoring, release-backed slide previews, and reviewer-ready English framing.
+
+## Project Snapshot
 
 | Field | Details |
 |---|---|
-| Repository | [Slide-DoAnHTN-Nhom17-DE10Standard](https://github.com/lhlizdabezt/Slide-DoAnHTN-Nhom17-DE10Standard) |
-| Portfolio category | Presentation deck and visual proof artifact |
-| Primary stack | Typst, Touying, Stargazer theme, slides, DE10-Standard, Cyclone V, TCP/IP, HPS/Linux. |
-| Latest release | [GitHub Releases](https://github.com/lhlizdabezt/Slide-DoAnHTN-Nhom17-DE10Standard/releases/latest) |
-| Tags | [Version tags](https://github.com/lhlizdabezt/Slide-DoAnHTN-Nhom17-DE10Standard/tags) |
-| Owner profile | [Luong Hai Long](https://github.com/lhlizdabezt) |
+| Repository | [lhlizdabezt/Slide-DoAnHTN-Nhom17-DE10Standard](https://github.com/lhlizdabezt/Slide-DoAnHTN-Nhom17-DE10Standard) |
+| Portfolio Track | Technical presentation, DE10-Standard, SoC Ethernet, Typst, Touying, and release-backed slide assets |
+| Public Status | Reviewer-ready English guide with release-backed evidence |
+| Latest Release | [Open stable release](https://github.com/lhlizdabezt/Slide-DoAnHTN-Nhom17-DE10Standard/releases/latest) |
+| Owner Profile | [lhlizdabezt](https://github.com/lhlizdabezt) |
+| Contact | 22207056@student.hcmus.edu.vn; luonghailong.work@gmail.com; Tel: +84988114708 |
 
-## Reviewer Map
+## Reviewer Evidence Map
 
-| What to Review | Where to Look | Why It Matters |
-|---|---|---|
-| Technical scope | This README and source tree | Gives a quick, bounded reading path before opening every file |
-| Evidence assets | Release page and top-level project files | Shows what can be downloaded or inspected quickly |
-| Implementation material | Source folders, scripts, notebooks or design files | Connects the portfolio claim to real project artifacts |
-| Version history | Tags and release notes | Makes the repository easier to audit over time |
+- Typst/Touying slide sources and generated visual previews.
+- Project images and deck assets that support the SoC Ethernet narrative.
+- English reviewer guide for HR, seminar, and engineering review.
+- Release packaging that provides a stable presentation snapshot.
 
-## Evidence Highlights
+## Implementation Review Notes
 
-- 16:9 Typst/Touying deck for the Cyclone V SoC Ethernet flow.
-- Preview images, PDF release and motion GIF evidence.
-- Explains PC/Android TCP clients, HPS/Linux and HPS-to-FPGA bridge behaviour.
-- Useful as a quick visual entry point for reviewers.
+| Review Point | What To Check |
+|---|---|
+| Problem framing | Confirm that the README explains the engineering purpose without exaggerated claims. |
+| Technical evidence | Inspect the source folders, reports, scripts, schematics, or visual assets listed below. |
+| Reproducibility | Use the local instructions where tools are available, or rely on the release snapshot for portfolio review. |
+| Communication quality | Check headings, captions, tables, and release notes for clear English technical writing. |
+| Professional boundary | Treat the repository as educational or portfolio evidence unless the source explicitly proves production deployment. |
 
 ## Repository Structure
 
-| Path | Purpose |
+| Path | Reviewer Purpose |
 |---|---|
-| `assets/` | Top-level directory included in the repository |
-| `docs/` | Top-level directory included in the repository |
-| `fonts/` | Top-level directory included in the repository |
-| `images/` | Top-level directory included in the repository |
-| `LICENSE` | Top-level file included in the repository |
-| `main.typ` | Top-level file included in the repository |
-| `stargazer.typ` | Top-level file included in the repository |
+| `main.typ` | Primary Typst slide deck entry point. |
+| `src/` | Slide sections or supporting Typst modules when available. |
+| `assets/` | Slide previews, motion GIFs, and reviewer-safe images. |
+| `RELEASE_NOTES.md` | Release changelog for the English reviewer guide. |
 
-## Scope and Boundaries
+## How To Review
 
-Presentation artifact for a course project. It complements the source repository rather than replacing the technical report.
+- Start with this README to understand the DE10-Standard communication context.
+- Review the slide source and visual preview images before compiling locally.
+- Check the latest release for a stable public presentation snapshot.
+- Assess clarity, technical sequencing, and visual communication rather than only code volume.
 
-## Role and Portfolio Context
+## How To Use Or Inspect Locally
 
-Luong Hai Long maintains the slide deck as portfolio-facing documentation for the SoC Ethernet project.
+- Install Typst and the required slide-deck packages if you want to build locally.
+- Run `typst compile main.typ` from the repository root when dependencies are available.
+- Review `assets/slide-preview-01.png` and the motion GIF for a quick visual scan.
+- Use the release page when you need the reviewed portfolio state.
 
-## Release and Tagging Notes
+## Visual Evidence
 
-This repository is maintained as part of an English-facing engineering portfolio. Releases and tags are used to preserve reviewable snapshots of the project, including source state, documentation updates and any available visual or report assets.
+![Animated English reviewer card.](assets/reviewer-card.svg)
+
+*Animated English reviewer card.*
+
+![Slide preview image.](assets/slide-preview-01.png)
+
+*Slide preview image.*
+
+## Release, Tags, And Topics
+
+- Current release target: `reviewer-guide-2026-06-02`.
+- Recommended topic set: `de10-standard, fpga, soc, ethernet, typst, touying, slides, technical-presentation, hps-linux, embedded-systems`.
+- Release notes are maintained in [`RELEASE_NOTES.md`](RELEASE_NOTES.md) for stable reviewer traceability.
+- The release archive is intended for HR review, seminar evidence, and academic portfolio verification.
+
+## Contact And Professional Links
+
+| Channel | Link |
+|---|---|
+| GitHub | [https://github.com/lhlizdabezt](https://github.com/lhlizdabezt) |
+| LinkedIn | [https://www.linkedin.com/in/lhlizdabezt](https://www.linkedin.com/in/lhlizdabezt) |
+| Facebook | [https://www.facebook.com/wageseadrake](https://www.facebook.com/wageseadrake) |
+| Instagram | [https://www.instagram.com/lhlizdabezt](https://www.instagram.com/lhlizdabezt) |
+| YouTube | [https://www.youtube.com/@lhlizdabezt](https://www.youtube.com/@lhlizdabezt) |
+| TikTok | [https://www.tiktok.com/@wageseadrake](https://www.tiktok.com/@wageseadrake) |
+| Academic Email | [22207056@student.hcmus.edu.vn](mailto:22207056@student.hcmus.edu.vn) |
+| Professional Email | [luonghailong.work@gmail.com](mailto:luonghailong.work@gmail.com) |
+| Phone | [+84988114708](tel:+84988114708) |
+
+## FAQ
+
+| Question | Answer |
+|---|---|
+| Is this a software repository or a deck repository? | It is primarily a technical presentation repository with release-backed visual assets. |
+| What is the engineering focus? | DE10-Standard SoC communication, technical explanation, and presentation clarity. |
+| Why use Typst/Touying? | They provide reproducible slide authoring and clean academic formatting. |
+
+## Scope And Boundaries
+
+- This repository is presented as public engineering portfolio evidence.
+- Claims are intentionally limited to what the repository, report, source files, simulations, or visual assets can support.
+- Public text is written in English (United States) for HR, faculty, and engineering reviewers.
+- SVG text is kept ASCII-safe to reduce rendering errors, mojibake, and missing-glyph blocks.
+- Motion visuals avoid moving dotted paths, curved connector lines, and text-over-line compositions.
 
 ## Writing Standard
 
-The README follows an evidence-first style: direct technical nouns, clear project boundaries, release-backed artifacts and no inflated claims beyond what the repository can support.
+The public README, release notes, captions, and reviewer-facing metadata are written in a restrained IEEE and Harvard-inspired style: concise, evidence-first, technically accurate, and suitable for Electronics and Telecommunications portfolio review.
